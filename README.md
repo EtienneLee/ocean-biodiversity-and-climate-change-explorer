@@ -1,21 +1,29 @@
 # Ocean Biodiversity & Climate Change Explorer 🌊
 
 ## Overview
-This project combines data from the World Ocean Database (WOD) and the Ocean Biodiversity Information System (OBIS) to create an interactive platform for exploring marine biodiversity and ocean conditions. The application integrates ocean temperature, salinity, and species occurrence data to provide researchers and interested users with tools to explore marine life and ocean characteristics across different locations.
 
-## Note
-This project was done in a group of 4, utilizing a postgreSQL database hosted on AWS. Due to costs the database has been deleted, but there is a demo video below as well as detailed documentation on the whole project.
+The Ocean Biodiversity & Climate Change Explorer is an interactive platform designed to explore marine biodiversity and ocean conditions by integrating data from the World Ocean Database (WOD) and the Ocean Biodiversity Information System (OBIS). This application provides researchers and interested users with tools to investigate marine life and ocean characteristics across different locations, utilizing ocean temperature, salinity, and species occurrence data.
 
-## Reponsibilities
-- Lowkey carried this project
-Key things I did
-1. Completely Preprocessed OBIS data in google colab and loaded it into AWS, this had many problems to solve mostly involving size of datasets, but more details in documentation
-2. After OBIS and WOD loaded into AWS, normalized the database and did most of the optimizations, details in docs
-3. Though it was not my role, wrote 2 advanced queries/routes for the species page. One on the advnaced species search involving multiple filters and one invloving species cards when you click on a species name
-4. For those advanced queries, also handled frontend, inclduing a paginated table for search results and a modal for the species card. Also made the navbar but that was simple. Note this was all the frontend aI did, the rest of spcies page was not me and thus looks much worse.
-5. Wriote most of the documentation, including data preprocessing and loading section, ER diagram, table deatils etc.
-   (Could also mention some group memebers literally did not do anything but that seems a bit bad so will just list what I did)
+**Key Technologies:** React.js, Node.js, Express, PostgreSQL (hosted on AWS)
 
-Demo Video Link: https://www.youtube.com/watch?v=fFq6oStJ7bc
+## Project Status
 
-Documentation link: 
+Please note that the PostgreSQL database hosted on AWS has been decommissioned due to cost considerations. While the live application is no longer available, a demo video and comprehensive project documentation are provided below for review.
+
+## Demo Video
+
+[Ocean Biodiversity & Climate Change Explorer Demo](https://www.youtube.com/watch?v=fFq6oStJ7bc)
+
+## Documentation
+
+[Project Documentation](link-to-your-pdf-here.pdf) <!-- Replace with your PDF link -->
+
+## Individual Contributions
+
+This project was completed by a team of four individuals. The following highlights my specific contributions to the project (details in documentation):
+
+*   **OBIS Data Preprocessing and Loading:** Preprocessed and loaded the OBIS dataset into AWS.
+*   **Database Normalization and Optimization:** Led database normalization and implemented key optimizations on WOD and OBIS datasets
+*   **Advanced Queries and API Development:** Developed two advanced queries/API endpoints for the species page: advanced species search with multiple filters and species card information retrieval.
+*   **Frontend Development (Species Page):** Designed and implemented frontend components for the advanced species search feature, including a paginated table and species card modal.
+*   **Documentation:** Wrote most of the documentation, including the data preprocessing and loading section, ER diagram, and table details.
