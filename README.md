@@ -16,7 +16,7 @@ Please note that the PostgreSQL database hosted on AWS has been decommissioned d
 
 ## Documentation
 
-[Project Documentation](link-to-your-pdf-here.pdf) <!-- Replace with your PDF link -->
+[Project Documentation](docs/Ocean Biodiversity & Climate Change Explorer - Project Documentation.pdf)
 
 ## Individual Contributions
 
