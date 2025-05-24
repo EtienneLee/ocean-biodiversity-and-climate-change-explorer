@@ -63,13 +63,13 @@ def process_batch(batch_files, engine, table_name, if_exists, batch_number):
         print(f"❌ Error during batch {batch_number} upload: {str(e)}")
         raise e
 
-# RDS connection settings
-USERNAME = "OceanGroup30"
-PASSWORD = "ac2(*TYx%lpQ"
-HOST = "project-database.ckn8whmflhxn.us-east-1.rds.amazonaws.com"
+# RDS connection settings - PLACEHOLDERS ONLY - DATABASE DELETED
+USERNAME = "placeholder_username"
+PASSWORD = "placeholder_password"
+HOST = "placeholder_host"
 PORT = "5432"
-DATABASE = "postgres"
-TABLE_NAME = "OBIS_2015"  # Changed table name here
+DATABASE = "placeholder_database"
+TABLE_NAME = "OBIS_2015"
 
 # Create the SQLAlchemy engine
 encoded_password = urllib.parse.quote_plus(PASSWORD)
